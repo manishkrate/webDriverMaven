@@ -11,7 +11,7 @@ public class AppTest {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		driver.getTitle();
-		driver.quit();
+		System.out.println("Changes done to test file");
 	}
 	
 }
