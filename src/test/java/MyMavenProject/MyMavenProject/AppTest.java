@@ -11,6 +11,7 @@ public class AppTest {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com/");
 		driver.getTitle();
+		System.out.println("Test for auto build of Jenkins");
 			}
 	
 }
